@@ -1,0 +1,52 @@
+.board{
+    min-width:325px; 
+
+    /* border: 1px solid red; */
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+    max-height: 100%; 
+
+    
+}
+.icon-inprogress svg {
+    color: rgb(216, 216, 25); /* Set the desired color for In progress */
+  }
+  .icon-done svg {
+    /* Style for Done */
+    color:rgb(97, 97, 247);
+  }
+.board_top{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    margin-right: 10px;
+
+}
+.board_top_title{
+    flex:1;
+    display:flex;
+    align-items:center;
+    /* justify-content: center; */
+    font-weight:bold;
+    margin-left: 10px;
+    gap:10px;
+}
+.board_top_title svg{
+   font-size: 18px;
+    display:flex;
+    align-items:center;
+   
+}
+.board_top_title span{
+    color:gray;
+}
+.board_cards{
+    padding:10px;
+}
+.board_card{
+    padding:2px;
+    background-color: white;
+    border-radius:5px;
+    
+}
